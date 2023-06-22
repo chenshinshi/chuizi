@@ -1,0 +1,98 @@
+/* ————————————————————所有边距初始化———————————————————— */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ----------------------------------------------------块添加圆角------------------------------------------- */
+.protyle-wysiwyg [data-node-id] {
+    border-radius: var(--b3-border-radius-none);
+}
+
+/* 块标提示不被窗口线遮挡 */
+.protyle-gutters {
+    z-index: 3;
+}
+
+/* ————————————————————设置滚动条样式——————————————————__ */
+::-webkit-scrollbar-thumb {
+    background-color: var(--b3-scroll-color);
+    border-radius: 1px;
+}
+
+
+/* 文档树滚动条，鼠标悬浮时才显示 */
+.fn__flex-1::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    transition: background-color 1s ease;
+}
+
+.fn__flex-1:hover::-webkit-scrollbar-thumb {
+    background-color: var(--b3-scroll-color);
+}
+
+/* ————————————————————修改滚动条宽度———————————————————— */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* ————————————————————去掉软件的边框线———————————————————— */
+body.body--win32 {
+    border: none !important;
+}
+
+/* ————————————————————表单设置不能拖拽缩放———————————————————— */
+textarea.b3-text-field.fn__flex-1 {
+    border: 1px solid transparent;
+    resize: none;
+}
+
+/* 设置块与块之间的间隔 */
+.fn__flex-1.fn__flex [data-type='wnd'] {
+    min-height: 0%;
+    margin: 12px;
+    border-radius: 4px;
+    box-shadow: 0 0 2px rgb(126 50 0 / 10%) inset, 0 1px 4px rgb(58 15 0 / 20%);
+}
+
+.fn__flex.fn__flex-1 {
+    background-image: url('../../src/background1.jpg');
+}
+
+/* 设置块与块之间分割线的样式 */
+.layout__resize--lr {
+    width: 2px;
+    margin: 0 -6px;
+    height: auto;
+    opacity: 0.5;
+}
+
+.layout__resize:not(.layout__resize--lr) {
+    height: 2px;
+    margin: -6px 0;
+    width: auto;
+    opacity: 0.5;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f4f0e4;
+}
+
+
+/* --------------------------------------------------鼠标样式----------------------------------------------- */
+/* ——————————————————————鼠标光标选中文本样式———————————————————————— */
+*:not(.pdfViewer)::selection {
+    background-color: var(--b3-theme-primary);
+    color: white;
+}
+
+/* ————————————————————————鼠标划选区域————————————————————————————*/
+.protyle-select {
+    background-color: transparent !important;
+}
+
+
+/* ————————————————————————————选中块—————————————————————————————— */
+.protyle-wysiwyg--select, .protyle-wysiwyg--select .hljs {
+    background-color: var(--b3-theme-hover2) !important;
+}

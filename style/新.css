@@ -1,0 +1,65 @@
+/* 设置界面 */
+.b3-dialog__container .config__panel>.b3-tab-bar::before {
+    display: block;
+    content: "設定";
+    font-size: 18px;
+    font-weight: 600;
+    margin: 9px 0 18px 18px;
+    opacity: 1;
+}
+/* 斜杠菜单 */
+.protyle-hint {
+    column-count: 3;
+}
+/* 搜索界面显示全部内容，来自HBuilderX-Light */
+#searchList,
+#globalSearchList {
+    padding-right: 0px !important;
+}
+
+#searchList [data-type="search-item"],
+#globalSearchList [data-type="search-item"] {
+    display: block !important;
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+#searchList [data-type="search-item"]>.b3-list-item__graphic,
+#globalSearchList [data-type="search-item"]>.b3-list-item__graphic {
+    position: absolute;
+    margin-top: 6px !important;
+    margin-left: 2px !important;
+}
+
+#searchList [data-type="search-item"]>.b3-list-item__text,
+#globalSearchList [data-type="search-item"]>.b3-list-item__text {
+    margin-left: 20px;
+    max-height: 73px !important;
+    padding-top: 5px !important;
+    padding-bottom: 2px !important;
+    padding-right: 5px !important;
+    overflow-y: auto !important;
+    text-overflow: ellipsis !important;
+    line-height: 1.2;
+    -webkit-box-orient: inherit !important;
+}
+
+#searchList [data-type="search-item"]>.b3-list-item__meta.b3-list-item__meta--ellipsis,
+#globalSearchList [data-type="search-item"]>.b3-list-item__meta.b3-list-item__meta--ellipsis {
+    display: block !important;
+    max-width: 95% !important;
+    margin-top: -7px !important;
+    margin-bottom: -5px !important;
+    padding-left: 12px !important;
+}
+/* 下划线 */
+.protyle-wysiwyg span[data-type~=u] {
+    border-bottom: 2px solid;
+}
+/* 删除线 */
+.b3-typography s, .b3-typography span[data-type~=s], .protyle-wysiwyg s, .protyle-wysiwyg span[data-type~=s] {
+    opacity: 0.6;
+    text-decoration: line-through;
+}

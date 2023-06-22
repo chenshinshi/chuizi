@@ -1,0 +1,40 @@
+/* 隐藏左上角设置按钮，鼠标悬浮时显示 */
+#toolbar .toolbar__item svg {
+    opacity: 0;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#toolbar:hover svg {
+    opacity: 1;
+}
+
+
+/* 设置软件顶部标题颜色 */
+.toolbar #drag {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.toolbar {
+    background-image: linear-gradient(#716661, #5f5450);
+}
+
+/* 给左侧dock栏设置右边框 */
+div#dockLeft {
+    border-right: 1px solid rgba(0, 0, 0, .07);
+}
+
+
+/* 给右侧dock栏设置左边框 */
+div#dockRight {
+    border-left: 1px solid var(--b3-border-color);
+}
+
+div#dockLeft .dock__item,
+div#dockRight .dock__item {
+    color: #99999e;
+}
+
+div#dockLeft .dock__item--active,
+div#dockRight .dock__item--active {
+    color: var(--b3-theme-primary);
+}

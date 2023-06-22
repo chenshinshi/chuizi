@@ -1,0 +1,22 @@
+{
+  "name": "chuizi",
+  "author": "UserZYF",
+  "url": "https://github.com/UserZYF/chuizi",
+  "version": "0.11",
+    "minAppVersion": "2.8.8",
+  "displayName": {
+    "default": "chuizi",
+    "zh_CN": "锤子"
+  },
+  "description": {
+    "default": "Upload chuizi theme by UserZYF",
+    "zh_CN": "搬运UserZYF仿锤子便签主题"
+  },
+  "readme": {
+    "default": "README.md",
+    "zh_CN": "README.md"
+  },
+  "modes": [
+    "light"
+  ]
+}

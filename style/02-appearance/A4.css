@@ -1,0 +1,22 @@
+/* 设置正文背景颜色/A4纸大小 */
+/* .protyle .b3-typography,
+.protyle .protyle-wysiwyg {
+    max-width: 19cm;
+    margin: 4px auto 4px !important;
+    padding-left: 1cm !important;
+    padding-right: 1cm !important;
+} */
+
+
+/* 设置标题宽度 */
+/* .protyle-title.protyle-wysiwyg--attr {
+    max-width: 19cm;
+    margin: 4px auto 4px !important;
+    padding-left: 1cm !important;
+    padding-right: 1cm !important;
+} */
+
+/* 修改头图emoji位置 */
+/* .protyle-background .protyle-background__iconw {
+    left: max(calc((100% - min(1380px, max(710px, 40vw))) / 2), 1cm) !important;
+} */
