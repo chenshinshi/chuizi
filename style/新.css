@@ -1,7 +1,7 @@
 /* 设置界面 */
 .b3-dialog__container .config__panel>.b3-tab-bar::before {
     display: block;
-    content: "設定";
+    content: "设置";
     font-size: 18px;
     font-weight: 600;
     margin: 9px 0 18px 18px;
@@ -62,4 +62,8 @@
 .b3-typography s, .b3-typography span[data-type~=s], .protyle-wysiwyg s, .protyle-wysiwyg span[data-type~=s] {
     opacity: 0.6;
     text-decoration: line-through;
+}
+/* 表情界面 */
+.emojis__panel {
+    overflow: unset !important;
 }
