@@ -1,0 +1,243 @@
+/* 块链接引用上标 */
+#sidebar [data-type="sidebar-outline"] [data-node-id] span[data-type~=a][data-href^="siyuan:"],
+.sy__outline [data-node-id] span[data-type~=a][data-href^="siyuan:"],
+.protyle-wysiwyg [data-node-id] span[data-type~=a][data-href^="siyuan:"],
+.protyle-wysiwyg a[href^="siyuan:"],
+.b3-typography a[href^="siyuan:"],
+.protyle-wysiwyg [data-node-id] span[data-type~='block-ref'] {
+   text-decoration: 2px solid #80808080 underline !important;
+    text-underline-offset: 2px !important;
+    color: inherit !important;
+    opacity: .86;
+    transition: var(--b3-transition);
+}
+
+
+#sidebar [data-type="sidebar-outline"] [data-node-id] span[data-type~=a][data-href^="siyuan:"]::before,
+.sy__outline [data-node-id] span[data-type~=a][data-href^="siyuan:"]::before,
+.protyle-wysiwyg [data-node-id] span[data-type~=a][data-href^="siyuan:"]::before,
+.protyle-wysiwyg a[href^="siyuan:"]::before,
+.b3-typography a[href^="siyuan:"]::before,
+.protyle-wysiwyg [data-node-id] span[data-type~='block-ref']::before {
+    content: "" !important;
+    display: inline-block !important;
+    position: relative !important;
+    background-repeat: no-repeat !important;
+    background-size: 1.2em 1.2em !important;
+    background-image: url(../src/page2.svg) !important;
+    width: 1.2em !important;
+    height: 1.2em !important;
+    margin-right: 0.2em !important;
+    margin-left: 5px !important;
+    top: 0.2em !important;
+}
+
+/* 维基图标 */
+.sy__outline [data-node-id] span[data-type~=a][data-href*="/wikipedia.org"]::before,
+.protyle-wysiwyg [data-node-id] span[data-type~=a][data-href*="/wikipedia.org"]::before,
+.protyle-wysiwyg a[href*="/wikipedia.org"]::before,
+.b3-typography a[href*="/wikipedia.org"]::before,
+.sy__outline [data-node-id] span[data-type~=a][data-href*=".wikipedia.org"]::before,
+.protyle-wysiwyg [data-node-id] span[data-type~=a][data-href*=".wikipedia.org"]::before,
+.protyle-wysiwyg a[href*=".wikipedia.org"]::before,
+.b3-typography a[href*=".wikipedia.org"]::before {
+    content: "" !important;
+    display: inline-block !important;
+    position: relative !important;
+    background-repeat: no-repeat !important;
+    background-size: 1.2em 1.2em !important;
+    background-image: url(../src/wikipedia.svg) !important;
+    width: 1.2em !important;
+    height: 1.2em !important;
+    margin-right: 0.2em !important;
+    margin-left: 5px !important;
+    top: 0.2em !important;
+}
+/* 知乎图标 */
+.sy__outline [data-node-id] span[data-type~=a][data-href*="/zhihu.com"]::before,
+.protyle-wysiwyg [data-node-id] span[data-type~=a][data-href*="/zhihu.com"]::before,
+.protyle-wysiwyg a[href*="/zhihu.com"]::before,
+.b3-typography a[href*="/zhihu.com"]::before,
+.sy__outline [data-node-id] span[data-type~=a][data-href*=".zhihu.com"]::before,
+.protyle-wysiwyg [data-node-id] span[data-type~=a][data-href*=".zhihu.com"]::before,
+.protyle-wysiwyg a[href*=".zhihu.com"]::before,
+.b3-typography a[href*=".zhihu.com"]::before {
+    content: "" !important;
+    display: inline-block !important;
+    position: relative !important;
+    background-repeat: no-repeat !important;
+    background-size: 1.2em 1.2em !important;
+    background-image: url(../src/zhihu.svg) !important;
+    width: 1.2em !important;
+    height: 1.2em !important;
+    margin-right: 0.2em !important;
+    margin-left: 5px !important;
+    top: 0.2em !important;
+}
+/* B站图标 */
+.sy__outline [data-node-id] span[data-type~=a][data-href*="/bilibili.com"]::before,
+.protyle-wysiwyg [data-node-id] span[data-type~=a][data-href*="/bilibili.com"]::before,
+.protyle-wysiwyg a[href*="/bilibili.com"]::before,
+.b3-typography a[href*="/bilibili.com"]::before,
+.sy__outline [data-node-id] span[data-type~=a][data-href*=".bilibili.com"]::before,
+.protyle-wysiwyg [data-node-id] span[data-type~=a][data-href*=".bilibili.com"]::before,
+.protyle-wysiwyg a[href*=".bilibili.com"]::before,
+.b3-typography a[href*=".bilibili.com"]::before {
+    content: "" !important;
+    display: inline-block !important;
+    position: relative !important;
+    background-repeat: no-repeat !important;
+    background-size: 1.2em 1.2em !important;
+    background-image: url(../src/bilibili.svg) !important;
+    width: 1.2em !important;
+    height: 1.2em !important;
+    margin-right: 0.2em !important;
+    margin-left: 5px !important;
+    top: 0.2em !important;
+}
+/* 推特图标 */
+.sy__outline [data-node-id] span[data-type~=a][data-href*="/twitter.com"]::before,
+.protyle-wysiwyg [data-node-id] span[data-type~=a][data-href*="/twitter.com"]::before,
+.protyle-wysiwyg a[href*="/twitter.com"]::before,
+.b3-typography a[href*="/twitter.com"]::before,
+.sy__outline [data-node-id] span[data-type~=a][data-href*=".twitter.com"]::before,
+.protyle-wysiwyg [data-node-id] span[data-type~=a][data-href*=".twitter.com"]::before,
+.protyle-wysiwyg a[href*=".twitter.com"]::before,
+.b3-typography a[href*=".twitter.com"]::before {
+    content: "" !important;
+    display: inline-block !important;
+    position: relative !important;
+    background-repeat: no-repeat !important;
+    background-size: 1.2em 1.2em !important;
+    background-image: url(../src/twitter.svg) !important;
+    width: 1.2em !important;
+    height: 1.2em !important;
+    margin-right: 0.2em !important;
+    margin-left: 5px !important;
+    top: 0.2em !important;
+}
+/* PDF文件 */
+#sidebar [data-type="sidebar-outline"] [data-node-id] span[data-type~=a][data-href^="assets/"][data-href$=".pdf"]::before,
+.sy__outline [data-node-id] span[data-type~=a][data-href^="assets/"][data-href$=".pdf"]::before,
+.protyle-wysiwyg [data-node-id] span[data-type~=a][data-href^="assets/"][data-href$=".pdf"]::before,
+#sidebar [data-type="sidebar-outline"] [data-node-id] span[data-type~=a][data-href^="/assets/"][data-href$=".pdf"]::before,
+.sy__outline [data-node-id] span[data-type~=a][data-href^="/assets/"][data-href$=".pdf"]::before,
+.protyle-wysiwyg [data-node-id] span[data-type~=a][data-href^="/assets/"][data-href$=".pdf"]::before,
+.protyle-wysiwyg a[href^="assets/"][href$=".pdf"]::before,
+.b3-typography a[href^="assets/"][href$=".pdf"]::before,
+.protyle-wysiwyg a[href^="/assets/"][href$=".pdf"]::before,
+.b3-typography a[href^="/assets/"][href$=".pdf"]::before {
+    content: "" !important;
+    display: inline-block !important;
+    position: relative !important;
+    background-repeat: no-repeat !important;
+    background-size: 1.2em 1.2em !important;
+    background-image: url(../src/pdf.svg) !important;
+    width: 1.2em !important;
+    height: 1.2em !important;
+    margin-right: 0.2em !important;
+    margin-left: 5px !important;
+    top: 0.2em !important;
+}
+/* 百度 */
+.sy__outline [data-node-id] span[data-type~=a][data-href*="/baidu.com"]::before,
+.protyle-wysiwyg [data-node-id] span[data-type~=a][data-href*="/baidu.com"]::before,
+.sy__outline [data-node-id] span[data-type~=a][data-href*=".baidu.com"]::before,
+.protyle-wysiwyg [data-node-id] span[data-type~=a][data-href*=".baidu.com"]::before,
+.protyle-wysiwyg a[href*="/baidu.com"]::before,
+.b3-typography a[href*="/baidu.com"]::before,
+.protyle-wysiwyg a[href*=".baidu.com"]::before,
+.b3-typography a[href*=".baidu.com"]::before {
+    content: "" !important;
+    display: inline-block !important;
+    position: relative !important;
+    background-repeat: no-repeat !important;
+    background-size: 1.2em 1.2em !important;
+    background-image: url(../src/baidu.svg) !important;
+    width: 1.2em !important;
+    height: 1.2em !important;
+    margin-right: 0.2em !important;
+    margin-left: 5px !important;
+    top: 0.2em !important;
+}
+/* 微信 */
+.sy__outline [data-node-id] span[data-type~=a][data-href*=".weixin.qq.com"]::before,
+.protyle-wysiwyg [data-node-id] span[data-type~=a][data-href*=".weixin.qq.com"]::before,
+.protyle-wysiwyg a[href*="/weixin.qq.com"]::before,
+.b3-typography a[href*="/weixin.qq.com"]::before,
+.protyle-wysiwyg a[href*=".weixin.qq.com"]::before,
+.b3-typography a[href*=".weixin.qq.com"]::before,
+.sy__outline [data-node-id] span[data-type~=a][data-href*="/weixin.qq.com"]::before,
+.protyle-wysiwyg [data-node-id] span[data-type~=a][data-href*="/weixin.qq.com"]::before {
+    content: "" !important;
+    display: inline-block !important;
+    position: relative !important;
+    background-repeat: no-repeat !important;
+    background-size: 1.2em 1.2em !important;
+    background-image: url(../src/wechat.svg) !important;
+    width: 1.2em !important;
+    height: 1.2em !important;
+    margin-right: 0.2em !important;
+    margin-left: 5px !important;
+    top: 0.2em !important;
+}
+.sy__outline [data-node-id] span[data-type~=a][data-href*="/douban.com"]::before,
+.protyle-wysiwyg [data-node-id] span[data-type~=a][data-href*="/douban.com"]::before,
+.protyle-wysiwyg a[href*="/douban.com"]::before,
+.b3-typography a[href*="/douban.com"]::before,
+.sy__outline [data-node-id] span[data-type~=a][data-href*=".douban.com"]::before,
+.protyle-wysiwyg [data-node-id] span[data-type~=a][data-href*=".douban.com"]::before,
+.protyle-wysiwyg a[href*=".douban.com"]::before,
+.b3-typography a[href*=".douban.com"]::before {
+    content: "" !important;
+    display: inline-block !important;
+    position: relative !important;
+    background-repeat: no-repeat !important;
+    background-size: 1.2em 1.2em !important;
+    background-image: url(../src/douban.svg) !important;
+    width: 1.2em !important;
+    height: 1.2em !important;
+    margin-right: 0.2em !important;
+    margin-left: 5px !important;
+    top: 0.2em !important;
+}
+.sy__outline [data-node-id] span[data-type~=a][data-href*="/panda321.com"]::before,
+.protyle-wysiwyg [data-node-id] span[data-type~=a][data-href*="/panda321.com"]::before,
+.protyle-wysiwyg a[href*="/panda321.com"]::before,
+.b3-typography a[href*="/panda321.com"]::before,
+.sy__outline [data-node-id] span[data-type~=a][data-href*=".panda321.com"]::before,
+.protyle-wysiwyg [data-node-id] span[data-type~=a][data-href*=".panda321.com"]::before,
+.protyle-wysiwyg a[href*=".panda321.com"]::before,
+.b3-typography a[href*=".panda321.com"]::before {
+    content: "" !important;
+    display: inline-block !important;
+    position: relative !important;
+    background-repeat: no-repeat !important;
+    background-size: 1.2em 1.2em !important;
+    background-image: url(../src/scholar.svg) !important;
+    width: 1.2em !important;
+    height: 1.2em !important;
+    margin-right: 0.2em !important;
+    margin-left: 5px !important;
+    top: 0.2em !important;
+}
+.sy__outline [data-node-id] span[data-type~=a][data-href*="/youtube.com"]::before,
+.protyle-wysiwyg [data-node-id] span[data-type~=a][data-href*="/youtube.com"]::before,
+.protyle-wysiwyg a[href*="/youtube.com"]::before,
+.b3-typography a[href*="/youtube.com"]::before,
+.sy__outline [data-node-id] span[data-type~=a][data-href*=".youtube.com"]::before,
+.protyle-wysiwyg [data-node-id] span[data-type~=a][data-href*=".youtube.com"]::before,
+.protyle-wysiwyg a[href*=".youtube.com"]::before,
+.b3-typography a[href*=".youtube.com"]::before {
+    content: "" !important;
+    display: inline-block !important;
+    position: relative !important;
+    background-repeat: no-repeat !important;
+    background-size: 1.2em 1.2em !important;
+    background-image: url(../src/youtube.svg) !important;
+    width: 1.2em !important;
+    height: 1.2em !important;
+    margin-right: 0.2em !important;
+    margin-left: 5px !important;
+    top: 0.2em !important;
+}
