@@ -1,7 +1,7 @@
 /* 设置界面 */
 .b3-dialog__container .config__panel>.b3-tab-bar::before {
     display: block;
-    content: "设置";
+    content: "設定";
     font-size: 18px;
     font-weight: 600;
     margin: 9px 0 18px 18px;
@@ -56,12 +56,12 @@
 }
 /* 下划线 */
 .protyle-wysiwyg span[data-type~=u] {
-    border-bottom: 2px solid;
+    border-bottom: 2px solid !important;
 }
 /* 删除线 */
 .b3-typography s, .b3-typography span[data-type~=s], .protyle-wysiwyg s, .protyle-wysiwyg span[data-type~=s] {
-    opacity: 0.6;
-    text-decoration: line-through;
+    opacity: 0.6 !important;
+    text-decoration: line-through !important;
 }
 /* 表情界面 */
 .emojis__panel {

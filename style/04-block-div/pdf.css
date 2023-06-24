@@ -1,15 +1,21 @@
 /* -----------------------------------------------------------------pdf双链-------------------------------------------------------- */
 
 /* ————————————————————修改PDF双链样式———————————————————— */
-.protyle-wysiwyg [data-node-id] span[data-type='file-annotation-ref'] {
-    color: var(--b3-theme-on-background);
+.protyle-wysiwyg[contenteditable=true] span[data-type~=file-annotation-ref] {
+    color: var(--b3-theme-on-background) !important;
     text-decoration: 1px solid underline var(--b3-theme-primary);
     margin: 0px;
 }
 
 
 .protyle-wysiwyg [data-node-id] span[data-type="file-annotation-ref"]:before {
-    content: url("../../src/file-pdf.svg");
+    content: url("../../src/file-pdf.svg") !important;
+    position: relative;
+    top: 0.1em;
+    margin-right: 4px;
+}
+.protyle-wysiwyg[contenteditable=true] span[data-type~=file-annotation-ref]::before {
+    content: url("../../src/file-pdf.svg") !important;
     position: relative;
     top: 0.1em;
     margin-right: 4px;
