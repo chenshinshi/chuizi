@@ -11,7 +11,7 @@ ul.fn__flex.layout-tab-bar {
     position: relative;
     background-color: #fbf7ed;
     flex: none;
-    min-width: 8em;
+/*    min-width: 8em;*/
     border-radius: 3px;
     box-shadow: none;
     margin: 4px 4px 4px 0px;
