@@ -89,11 +89,11 @@
     --b3-tooltips-color: gray;
 
     /* ————————————————————4种外观样式———————————————————— */
-    /* 4种样式中文字的颜色 */
-    --b3-card-error-color: #202124;
-    --b3-card-warning-color: #202124;
-    --b3-card-info-color: #202124;
-    --b3-card-success-color: #202124;
+    /* 4种样式中文字的颜色 原样式：#202124 */
+    --b3-card-error-color: #645647;
+    --b3-card-warning-color: #645647;
+    --b3-card-info-color: #645647;
+    --b3-card-success-color: #645647;
     /* 4种样式背景颜色 */
     --b3-card-error-background: #fbd2d4;
     --b3-card-warning-background: #fcf4cc;

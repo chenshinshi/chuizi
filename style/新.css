@@ -1,7 +1,7 @@
 /* 设置界面 */
 .b3-dialog__container .config__panel>.b3-tab-bar::before {
     display: block;
-    content: "設定";
+    content: "设置";
     font-size: 18px;
     font-weight: 600;
     margin: 9px 0 18px 18px;
