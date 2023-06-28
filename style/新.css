@@ -67,3 +67,11 @@
 .emojis__panel {
     overflow: unset !important;
 }
+/*工具栏适配*/
+.toolbar__item:not(.toolbar__item--disabled):not(.toolbar__item--close):hover, .toolbar__item--active {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.8);
+}
+:root {
+    --b3-toolbar-blur-background: #524841;
+}
