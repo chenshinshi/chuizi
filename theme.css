@@ -87,12 +87,26 @@
 @import url("style/05-custom-function-for-file/custom-function-for-file.css");
 /* 增加块的自定义属性 */
 @import url("style/06-custom-function-for-block/custom-function-for-block.css");
-/* 增加 Roy 的列表转思维导图代码 */
-@import url("style/list-to-map.css");
-/* 增加列表转表格代码 */
-@import url("style/list-to-table.css");
 /*自定制修改*/
 @import url("style/新.css");
-@import url("style/链接图标.css");
 
 /* ----------------------------------------------------引入结束---------------------------------------------------------- */
+
+.layout--float .fn__flex.fn__flex-1{
+   background-image:unset;
+   box-shadow:unset;
+}
+.layout__dockl,.layout__dockr{
+   box-shadow:unset !important;
+   border:none !important;
+}
+.layout--float .fn__flex-1.fn__flex-column{
+   box-shadow:0 0 2px rgb(126 50 0 / 10%) inset, 0 1px 4px rgb(58 15 0 / 20%);
+}
+.layout__dockl [data-type="wnd"]{
+   margin-left:0px !important;
+}
+.layout__dockr [data-type="wnd"]{
+   margin-right:0px !important;
+}
+
