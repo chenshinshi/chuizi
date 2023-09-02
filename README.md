@@ -1,15 +1,12 @@
+由 UserZYF 授权 chenshinshi 重新上架[锤子便签](https://github.com/UserZYF/chuizi)主题，并适配新版本思源。
 
-**搬运自[UserZYF锤子便签](https://github.com/UserZYF/chuizi)主题，适配新版本思源，以下是原主题readme。**
+欢迎 github 或邮箱 2903034828carlton\@gmail.com 反馈。
 
-### 主题说明
-- 本主题基于 min-verse 主题修改而来，自定义属性和 Zhang-Light 通用
-- 本主题借鉴了锤子便签的配色，十分护眼
-- 推荐使用鸿蒙字体
-  - 安装地址：[HarmonyOS 字体](https://developer.harmonyos.com/cn/docs/design/font-0000001157868583)
+### 0.22 版本更新内容
 
-- **本主题不得商用**
+- 删除已由插件实现的 js 与 css 代码，推荐下载文档层级导航、链接图标、自定义块属性、自定义字型插件。
 
-
+- 修复侧栏面板悬浮时的显示效果以及 tooltip 颜色
 
 ### 感谢名单
 
@@ -18,6 +15,3 @@
 | Dark+        | Zuoqiu-Yingyi | 编辑区域和文档树之前间隔的代码       |
 | Rem Craft    | Seven Chor    | 标签页的设计                         |
 | Notion-theme | Roy           | 大纲前面的“H1”等符号修改为数字的设计 |
-
-
-![主题介绍 png](https://github.com/chenshinshi/chuizi/assets/125173405/550fc5e7-84dc-472b-b7c6-410e8b943023)

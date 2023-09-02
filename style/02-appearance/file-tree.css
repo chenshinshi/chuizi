@@ -218,7 +218,6 @@ span.b3-list-item__action.b3-tooltips[data-type="more-file"]:hover {
 
 .fn__flex-1.fn__flex-column.file-tree.sy__outline li[data-subtype="h1"] .b3-list-item__text::before {
     float: left;
-    font-family: var(--b3-font-family-code);
     content: "1";
     margin-right: 4px;
     color: var(--b3-font-color1);
@@ -226,7 +225,6 @@ span.b3-list-item__action.b3-tooltips[data-type="more-file"]:hover {
 
 .fn__flex-1.fn__flex-column.file-tree.sy__outline li[data-subtype="h2"] .b3-list-item__text::before {
     float: left;
-    font-family: var(--b3-font-family-code);
     content: "2";
     margin-right: 4px;
     color: var(--b3-font-color2);
@@ -234,7 +232,6 @@ span.b3-list-item__action.b3-tooltips[data-type="more-file"]:hover {
 
 .fn__flex-1.fn__flex-column.file-tree.sy__outline li[data-subtype="h3"] .b3-list-item__text::before {
     float: left;
-    font-family: var(--b3-font-family-code);
     content: "3";
     margin-right: 4px;
     color: var(--b3-font-color3);
@@ -242,7 +239,6 @@ span.b3-list-item__action.b3-tooltips[data-type="more-file"]:hover {
 
 .fn__flex-1.fn__flex-column.file-tree.sy__outline li[data-subtype="h4"] .b3-list-item__text::before {
     float: left;
-    font-family: var(--b3-font-family-code);
     content: "4";
     margin-right: 4px;
     color: var(--b3-font-color4);
@@ -250,7 +246,6 @@ span.b3-list-item__action.b3-tooltips[data-type="more-file"]:hover {
 
 .fn__flex-1.fn__flex-column.file-tree.sy__outline li[data-subtype="h5"] .b3-list-item__text::before {
     float: left;
-    font-family: var(--b3-font-family-code);
     content: "5";
     margin-right: 4px;
     color: var(--b3-font-color5);
@@ -258,7 +253,6 @@ span.b3-list-item__action.b3-tooltips[data-type="more-file"]:hover {
 
 .fn__flex-1.fn__flex-column.file-tree.sy__outline li[data-subtype="h6"] .b3-list-item__text::before {
     float: left;
-    font-family: var(--b3-font-family-code);
     content: "6";
     margin-right: 4px;
     color: var(--b3-font-color6);
