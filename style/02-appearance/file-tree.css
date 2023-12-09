@@ -73,10 +73,12 @@ body {
 /* ------------------------------------------------------文档树 END--------------------------------------- */
 
 /* ——————————————————————————————点击文档树emoji不弹出修改窗口—————————————————————————— */
-span.b3-list-item__icon.b3-tooltips.b3-tooltips__n {
+/*span.b3-list-item__icon.b3-tooltips.b3-tooltips__n {
     pointer-events: none;
+}*/
+span.b3-list-item__icon.b3-tooltips.b3-tooltips__n,span.b3-list-item__icon.b3-tooltips.b3-tooltips__e {
+    background:transparent !important;
 }
-
 /* -----------------------------------------------------------文档树条目------------------------------------------------- */
 /* ------------------------------------文档树文字设置为灰色------------------------------- */
 
@@ -129,14 +131,14 @@ span.b3-list-item__icon.b3-tooltips.b3-tooltips__n {
 
 /* ----------------------------------------修改文档树新建按钮的样式----------------------------------------- */
 /* 隐藏文档树后面的引用计数 */
-span.popover__block.counter.b3-tooltips.b3-tooltips__nw {
+/*span.popover__block.counter.b3-tooltips.b3-tooltips__nw {
     display: none;
-}
+}*/
 
 /* 隐藏大纲后面的引用计数 */
-.fn__flex-1.fn__flex-column.file-tree.sy__outline span.counter {
+/*.fn__flex-1.fn__flex-column.file-tree.sy__outline span.counter {
     display: none;
-}
+}*/
 
 /* ————————————————————更改新建按钮样式———————————————————— */
 /* 隐藏原来的新建按钮的样式 */
@@ -208,7 +210,9 @@ span.b3-list-item__action.b3-tooltips[data-type="more-file"]:hover {
 /* ————————————————————————————————————————大纲———————————————————————————————————————— */
 /* 将大纲前面的H1修改为数字 */
 .fn__flex-1.fn__flex-column.file-tree.sy__outline svg.b3-list-item__graphic.popover__block {
-    display: none;
+    /*display: none;*/
+    opacity:0;
+   margin-right:-14px;
 }
 
 /* 调整文档树折叠小三角的颜色 */
