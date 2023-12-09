@@ -28,7 +28,7 @@ ul.fn__flex.layout-tab-bar {
 }
 
 /* 鼠标悬浮时的标签页背景颜色，应该和focus时的背景颜色一致 */
-.layout-tab-bar .item:hover {
+.layout-tab-bar .item:not(.item--readonly):hover {
     background-color: #f3eee1 !important;
     border-radius: 3px !important;
 }

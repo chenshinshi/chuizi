@@ -97,7 +97,7 @@ div.b3-meun .b3-list .b3-list--background .b3-list-item--focus {
     background-color: var(--b3-theme-hover2) !important;
     border-radius: var(--b3-border-radius-noraml);
 }
-
+.b3-menu .b3-menu__item.b3-menu__item--readonly:hover{background:transparent !important}
 div#commonMenu {
     box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
 }
@@ -111,11 +111,11 @@ div#commonMenu {
 /* 设置分栏 */
 /* --------------------------------将'/'弹出的选择窗口分为4栏，便于直观进行选择（分栏）---------------------------------------- */
 .b3-menu.b3-list.b3-list--background {
-    column-count: auto;
+/*    column-count: auto;
     column-width: 148px !important;
     column-gap: 5px;
     min-width: 50vw !important;
-    max-height: 480px !important;
+    max-height: 480px !important;*/
     border: var(--b3-border-column);
     padding: 4px;
 }
@@ -209,23 +209,23 @@ button.b3-list-item.b3-list-item--two.fn__block[data-value*="((newFile"] .b3-lis
 }
 
 /* ————————————————————调整挂件和模板窗口的分栏效果，仍旧分为4栏—————————————————————————————— */
-.b3-list.fn__flex-1.b3-list--background:not(ul.b3-list.b3-list--background.fn__flex-1, div#globalSearchList) {
+/*.b3-list.fn__flex-1.b3-list--background:not(ul.b3-list.b3-list--background.fn__flex-1, div#globalSearchList) {
     column-count: 3;
     column-gap: 5px;
     /* min-width: 50vw !important; */
     font-size: 90%;
     /* border: 0.2em solid #ffffff4d; */
     border: var(--b3-border-column-item);
-}
+}*/
 
 
 /* ————————————————————设置挂件和模板窗口每个项目的宽度———————————————————— */
-.b3-list.fn__flex-1.b3-list--background:not(ul.b3-list.b3-list--background.fn__flex-1, div#globalSearchList) .b3-list-item {
+/*.b3-list.fn__flex-1.b3-list--background:not(ul.b3-list.b3-list--background.fn__flex-1, div#globalSearchList) .b3-list-item {
     /* max-width: 200px;
     white-space: nowrap; */
     overflow: hidden;
     text-overflow: ellipsis;
-}
+}*/
 
 /* ————————————————————调整emoji窗口的选择效果，向右拉动滚动条查看所有emoji———————————————————— */
 /* 控制整个表情面板是左右滑动而不是上下滑动 */

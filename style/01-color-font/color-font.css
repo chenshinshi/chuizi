@@ -79,7 +79,8 @@
     --b3-menu-background: var(--b3-theme-background2);
 
     /* 提示气泡颜色 */
-    --b3-tooltips-color: gray;
+    --b3-tooltips-background:#3e3e3e;
+    --b3-tooltips-color: #d8d8d8;
 
     /* ————————————————————4种外观样式———————————————————— */
     /* 4种样式中文字的颜色 原样式：#202124 */
@@ -141,7 +142,7 @@
     --b3-pdf-background3: #ffff57;
     --b3-pdf-background4: #80ff80;
     --b3-pdf-background5: #98eaff;
-    --b3-pdf-background6: #91d5ff;
+    --b3-pdf-background6: #e2e2e2;
     --b3-pdf-background7: #d4b8f8;
 
     /* 动画效果 */
