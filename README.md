@@ -2,6 +2,18 @@
 
 欢迎 github 或邮箱 <2903034828carlton@gmail.com> 反馈。
 
+### 🎉0.25 版本更新内容：细节修复，喜迎思源3.0！
+
+1.  取消顶栏按钮隐藏
+
+2.  润色商店页头栏样式
+
+3.  修复提示气泡不显示
+
+4.  缩减文档树、大纲左右边
+
+5.  新增表情字体文件（感谢[zuoez02](https://github.com/zuoez02)提供的[google-noto-color-font](https://github.com/zuoez02/siyuan-plugin-noto-color-emoji)相关文件及代码）
+
 ### 0.24 版本更新内容
 
 *   统一菜单悬浮颜色，修复错误悬浮样式

@@ -1,12 +1,12 @@
 /* 隐藏左上角设置按钮，鼠标悬浮时显示 */
 #toolbar .toolbar__item svg {
-    opacity: 0;
+/*    opacity: 0;*/
     color: rgba(255, 255, 255, 0.5);
 }
 
-#toolbar:hover svg {
+/*#toolbar:hover svg {
     opacity: 1;
-}
+}*/
 
 
 /* 设置软件顶部标题颜色 */

@@ -89,8 +89,8 @@ span.b3-list-item__icon.b3-tooltips.b3-tooltips__n,span.b3-list-item__icon.b3-to
     height: 2.2em;
     border-bottom: 0.05em solid #e4dad1;
     border-radius: 0px;
-    padding-left: 18px;
-    padding-right: 14px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 /* 给文档树，大纲设置背景颜色 */
