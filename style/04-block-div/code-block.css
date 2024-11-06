@@ -2,11 +2,10 @@
 .code-block {
     /* margin: 4px !important; */
     border-radius: var(--b3-border-radius-noraml) !important;
-    background-color: #f3eee1;
+    background-color: #f3eee1 !important;
     border: 0.1em solid var(--b3-table-border-color) !important;
     margin: 4px !important;
 }
-
 /* 代码块主体部分设置 */
 .protyle-reset .hljs,
 .protyle-wysiwyg .hljs, .b3-typography .hljs {
