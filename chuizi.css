@@ -1,0 +1,27 @@
+.protyle-wysiwyg span[data-type~=u] {
+    border-bottom: 2px solid #dbc0b6 !important;
+}
+.protyle-wysiwyg [data-node-id] span[data-type='tag']:not(:empty)::before {
+    content: "#";
+    color: #b35050;
+    margin-right: 2px;
+    font-weight: 600;
+}
+.protyle-wysiwyg [data-node-id] span[data-type='tag']:not(:empty){
+	border:none;
+}
+.b3-typography span[data-type~=inline-memo], .protyle-wysiwyg span[data-type~=inline-memo] {
+    background-color: #dbedf4;
+    border-bottom: 2px solid #7692a3;
+}
+.tooltip--memo{
+	background-color:#7692a3;
+	color:white;
+}
+.protyle-wysiwyg [data-node-id].bq:not(div.list div.bq):before{
+	left:unset;
+	top:unset;
+}
+.protyle-wysiwyg [data-node-id].bq:not(div.list div.bq):after{
+	top:unset;
+}
