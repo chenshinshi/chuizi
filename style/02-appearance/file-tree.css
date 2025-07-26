@@ -104,7 +104,7 @@ span.b3-list-item__icon.b3-tooltips.b3-tooltips__n,span.b3-list-item__icon.b3-to
 
 /* -----------------------------------文档树条目hover高亮-------------------------------- */
 .b3-list--background .b3-list-item:hover:not(.b3-list-item--focus) {
-    background-color: #f1ece1;
+    background-color: #f1ece1 !important;
 }
 
 
