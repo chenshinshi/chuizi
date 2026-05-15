@@ -7,13 +7,10 @@
 /* ————————————————————文档树、大纲、反向链接顶部的背景颜色———————————————————— */
 .block__icons {
     background-color: transparent;
-    border-top: 1px solid var(--b3-border-color);
     border-bottom: 1px solid var(--b3-border-color);
-    padding-top: 3px !important;
-    padding-bottom: 3px !important;
     box-sizing: border-box !important;
-    height: 38px;
 }
+.av__body .block__icons{border-bottom:none}
 
 /* ————————————————————设置界面字体大小，不包括正文，正文字体大小在编辑器那里选择———————————————————— */
 /* 主要修改的是文档树字体大小 */

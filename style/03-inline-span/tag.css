@@ -1,13 +1,14 @@
 /* ------------------------------------------标签 tag--------------------------------------------- */
 .protyle-wysiwyg [data-node-id] span[data-type='tag']:not(:empty) {
     color: var(--b3-theme-primary);
-    background-color: transparent;
     border-radius: 50px;
     border: 1px solid var(--b3-table-border-color) !important;
     box-sizing: border-box;
-    padding-left: 6px;
-    padding-right: 6px;
-    margin-right: 4px;
+    background-color: #f7f2ea;   /* 浅米灰底，有实体感 */
+    border-radius: 30px;
+    box-sizing: border-box;
+    padding: 2px 8px 2px 6px;   /* 微调内边距，更平衡 */
+    margin-right: 6px;
     margin-left: 4px;
 }
 
